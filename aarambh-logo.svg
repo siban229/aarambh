@@ -1,0 +1,36 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graduation Cap with Pencil Icon -->
+  <g transform="translate(20, 40)">
+    <!-- Graduation Cap -->
+    <!-- Cap board (square top) -->
+    <path d="M 30 45 L 90 25 L 150 45 L 90 65 Z" fill="#F97316" stroke="#F97316" stroke-width="3"/>
+    
+    <!-- Cap tassel -->
+    <line x1="90" y1="25" x2="90" y2="10" stroke="#F97316" stroke-width="2.5"/>
+    <circle cx="90" cy="8" r="5" fill="#F97316"/>
+    
+    <!-- Cap body (3D effect) -->
+    <path d="M 30 45 L 30 75 L 90 95 L 150 75 L 150 45" fill="#F97316" opacity="0.7"/>
+    
+    <!-- Pencil integrated in cap -->
+    <g transform="translate(70, 55)">
+      <!-- Pencil body -->
+      <rect x="0" y="0" width="40" height="50" rx="3" fill="#1E3A8A"/>
+      
+      <!-- Pencil lines (3 white horizontal lines) -->
+      <line x1="8" y1="15" x2="32" y2="15" stroke="white" stroke-width="2.5"/>
+      <line x1="8" y1="25" x2="32" y2="25" stroke="white" stroke-width="2.5"/>
+      <line x1="8" y1="35" x2="32" y2="35" stroke="white" stroke-width="2.5"/>
+      
+      <!-- Pencil tip -->
+      <polygon points="0,50 20,65 40,50" fill="#FCD34D"/>
+      <polygon points="15,50 20,60 25,50" fill="#78350F"/>
+    </g>
+  </g>
+  
+  <!-- Aarambh Text in Devanagari (आरंभ) -->
+  <text x="200" y="110" font-family="'Noto Sans Devanagari', Arial, sans-serif" font-size="80" font-weight="bold" fill="#F97316">आरंभ</text>
+  
+  <!-- Career Advisor Text -->
+  <text x="200" y="150" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="36" font-weight="700" fill="#1E3A8A" letter-spacing="2">CAREER ADVISOR</text>
+</svg>
